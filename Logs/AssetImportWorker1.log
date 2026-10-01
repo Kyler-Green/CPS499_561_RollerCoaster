@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/respin/6000.3.6f1-732c1ec89f18' branch; Version is '6000.3.6f1 (bbb010bdb8a3) revision 12300304'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jayde" at "2026-10-01T14:01:15.4042419Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 15557 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jayde" at "2026-10-01T14:16:52.7460872Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-01T14:01:15Z
+Date: 2026-10-01T14:16:52Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity 6000.3.6f1\Editor\Unity.exe
@@ -15,11 +15,11 @@ C:\Program Files\Unity 6000.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/jayde/Documents/UnityProjects/RollerCoaster
+C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57164
+52842
 -licensingIpc
 LicenseClient-jayde
 -job-worker-count
@@ -30,8 +30,8 @@ LicenseClient-jayde
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/jayde/Documents/UnityProjects/RollerCoaster
-C:/Users/jayde/Documents/UnityProjects/RollerCoaster
+Successfully changed project path to: C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster
+C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -67,12 +67,12 @@ C:/Users/jayde/Documents/UnityProjects/RollerCoaster
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [10124]  Target information:
+Player connection [308]  Target information:
 
-Player connection [10124]  * "[IP] 131.238.222.250 [Port] 0 [Flags] 2 [Guid] 3157696425 [EditorId] 3157696425 [Version] 1048832 [Id] WindowsEditor(7,JaydenLenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [308]  * "[IP] 131.238.222.250 [Port] 0 [Flags] 2 [Guid] 1501682721 [EditorId] 1501682721 [Version] 1048832 [Id] WindowsEditor(7,JaydenLenovo1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10124] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10124] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [308] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [308] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,11 +84,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.6f1 (bbb010bdb8a3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jayde/Documents/UnityProjects/RollerCoaster/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -100,53 +100,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 6000.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 6000.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 6000.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 6000.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002858 seconds.
-- Loaded All Assemblies, in  0.572 seconds
+Registered in 0.004204 seconds.
+- Loaded All Assemblies, in  0.943 seconds
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              bb73e0cec53e41648d3139a8a630d832
+  Session Id:              948b3922b3f045cca5fb7efa14b32671
   Correlation Id:          bdaadadb704a8cc45cb53a4f2bc1cf0c
-  External correlation Id: 1759229380166366061
+  External correlation Id: 5062061860772127973
   Machine Id:              xheNMcDZ5pKxvAtcUY2Fr0s4dV0=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jayde" (connect: 0.00s, validation: 0.00s, handshake: 1.41s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jayde-notifications" at "2026-10-01T14:01:16.8146011Z"
-[Licensing::Module] Licensing Background thread has ended after 1.41s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-jayde" (connect: 0.00s, validation: 0.00s, handshake: 2.21s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-jayde-notifications" at "2026-10-01T14:16:54.9554591Z"
+[Licensing::Module] Licensing Background thread has ended after 2.21s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.581 seconds
-Domain Reload Profiling: 1145ms
-	BeginReloadAssembly (185ms)
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1684ms
+	BeginReloadAssembly (340ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (228ms)
-		LoadAssemblies (179ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (331ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (203ms)
+		AnalyzeDomain (357ms)
+			TypeCache.Refresh (354ms)
+				TypeCache.ScanAssembly (327ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (581ms)
+	FinalizeReload (749ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
+		SetupLoadedEditorAssemblies (667ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (131ms)
-			ProcessInitializeOnLoadAttributes (226ms)
-			ProcessInitializeOnLoadMethodAttributes (91ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (183ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,8 +161,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.963 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.120 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -170,148 +170,569 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.818 seconds
-Domain Reload Profiling: 1775ms
-	BeginReloadAssembly (278ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (441ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (250ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (168ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (818ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (635ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (190ms)
-			ProcessInitializeOnLoadAttributes (370ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3835 unused Assets / (2.0 MB). Loaded Objects now: 4446.
-Memory consumption went from 105.8 MB to 103.8 MB.
-Total: 10.574800 ms (FindLiveObjects: 0.579400 ms CreateObjectMapping: 0.876200 ms MarkObjects: 7.017500 ms  DeleteObjects: 2.100500 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.957 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.945 seconds
-Domain Reload Profiling: 1897ms
-	BeginReloadAssembly (301ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (64ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (26ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (515ms)
-		LoadAssemblies (476ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (189ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (946ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (744ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (224ms)
-			ProcessInitializeOnLoadAttributes (439ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3833 unused Assets / (1.3 MB). Loaded Objects now: 4447.
-Memory consumption went from 105.8 MB to 104.5 MB.
-Total: 11.125900 ms (FindLiveObjects: 0.704600 ms CreateObjectMapping: 0.666400 ms MarkObjects: 7.661700 ms  DeleteObjects: 2.091400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.915 seconds
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.977 seconds
-Domain Reload Profiling: 1887ms
-	BeginReloadAssembly (292ms)
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 2082ms
+	BeginReloadAssembly (314ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (62ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (512ms)
-		LoadAssemblies (420ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (647ms)
+		LoadAssemblies (514ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (245ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (228ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (978ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (225ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (970ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (779ms)
+		SetupLoadedEditorAssemblies (780ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (244ms)
-			ProcessInitializeOnLoadAttributes (447ms)
-			ProcessInitializeOnLoadMethodAttributes (67ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (233ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3833 unused Assets / (1.0 MB). Loaded Objects now: 4448.
-Memory consumption went from 105.8 MB to 104.8 MB.
-Total: 10.936900 ms (FindLiveObjects: 0.487600 ms CreateObjectMapping: 0.457100 ms MarkObjects: 8.473900 ms  DeleteObjects: 1.516700 ms)
+Unloading 3835 unused Assets / (1.2 MB). Loaded Objects now: 4451.
+Memory consumption went from 107.1 MB to 106.0 MB.
+Total: 11.179200 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.668200 ms MarkObjects: 8.394600 ms  DeleteObjects: 1.536300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2481.150460 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/cactus_04.FBX
+  artifactKey: Guid(c5e47ccaf223ef846960d87a75f43b46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/cactus_04.FBX using Guid(c5e47ccaf223ef846960d87a75f43b46) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '3af8e78d4a18eb9ec78952a381fb7f01') in 0.3722441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Water/Water4/Models
+  artifactKey: Guid(6aa58ee2f84094af2846e1a7bb0c23f9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Water/Water4/Models using Guid(6aa58ee2f84094af2846e1a7bb0c23f9) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '74fa2aca3e1628bf0c638ebd0d7dcd15') in 0.0696294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/rock_half_01.prefab
+  artifactKey: Guid(98935463b819ad44da5fe2b91a43286c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/rock_half_01.prefab using Guid(98935463b819ad44da5fe2b91a43286c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '41a7b231e0a077dc14d367307101cf0b') in 0.0316494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/stairs_01.FBX
+  artifactKey: Guid(70029aae73c70314098b4ed8a0869915) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/stairs_01.FBX using Guid(70029aae73c70314098b4ed8a0869915) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '03af45437e9a9bfa48d620be5e350b5d') in 0.0257664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_038c44e42493390d78.terrainlayer
+  artifactKey: Guid(882d45ac3d68474409eea5554d082f99) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_038c44e42493390d78.terrainlayer using Guid(882d45ac3d68474409eea5554d082f99) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '62d2bf185b6a26b1d86ca94b7b59c457') in 0.0222639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/bone_01.prefab
+  artifactKey: Guid(32b35955526cfb04b9273997897460d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/bone_01.prefab using Guid(32b35955526cfb04b9273997897460d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '46abd8620bd7a9b48d7e9342d5eb5fb2') in 0.0215349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Camp/tent_01.prefab
+  artifactKey: Guid(d567bf017e2a66f44b8685db215fc5e8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Camp/tent_01.prefab using Guid(d567bf017e2a66f44b8685db215fc5e8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e13daa3e68747aceb7956c73e8d58cea') in 0.0274261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/block_02.FBX
+  artifactKey: Guid(b3e76fde21c3997459fedb608899c382) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/block_02.FBX using Guid(b3e76fde21c3997459fedb608899c382) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '53f29162e41eb45395dbf7568e39f733') in 0.0311816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/rock_05.prefab
+  artifactKey: Guid(606febe19d62a8544a7c8c508940985c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/rock_05.prefab using Guid(606febe19d62a8544a7c8c508940985c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a762ee8ca02b59fd5d314490fe8536a1') in 0.0225184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/rock_04.FBX
+  artifactKey: Guid(15f7090c6c5b98a419034a9858382b87) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/rock_04.FBX using Guid(15f7090c6c5b98a419034a9858382b87) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c0bdd44c43152a24294d214e7e9bf1d5') in 0.0275187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/cactus_03.prefab
+  artifactKey: Guid(3478e25a52555834989d7305b9c7d91f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/cactus_03.prefab using Guid(3478e25a52555834989d7305b9c7d91f) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b7524ae9a98d69fac5439998dd392fe3') in 0.0210364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/tower.FBX
+  artifactKey: Guid(aa275539d5cdd874c92a979014468e47) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/tower.FBX using Guid(aa275539d5cdd874c92a979014468e47) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1204def809f904074ad1787b994ced6c') in 0.0338187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/cactus_05.FBX
+  artifactKey: Guid(ad62bbfa33112154b8c0abd69627198b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/cactus_05.FBX using Guid(ad62bbfa33112154b8c0abd69627198b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '91ec6d20da7b3e4cd183e0c0260c1bdc') in 0.0268081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/fern_01.FBX
+  artifactKey: Guid(f55f684be5040d94cb9a7a7f333e62b3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/fern_01.FBX using Guid(f55f684be5040d94cb9a7a7f333e62b3) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b20e171a3e174e1612e8f816bcd15a7d') in 0.0511291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/bone_04.prefab
+  artifactKey: Guid(72a8a246ec2d3b741a0c2ba462493340) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/bone_04.prefab using Guid(72a8a246ec2d3b741a0c2ba462493340) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f64c3e50df7512fd9f7616ac70761075') in 0.0218057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/arch_03.FBX
+  artifactKey: Guid(8caba619e95ca2642b6f2c14578f9c2a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/arch_03.FBX using Guid(8caba619e95ca2642b6f2c14578f9c2a) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd6fe011fc5747b01ba2b055450bd7483') in 0.0238439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/palm_01.FBX
+  artifactKey: Guid(07381deb45119e040a9483326ea77843) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/palm_01.FBX using Guid(07381deb45119e040a9483326ea77843) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '68f7c4fa9452d91898bd29dc0f9fb3d5') in 0.0299327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Skull_02.FBX
+  artifactKey: Guid(798f5dd5f7a0043459bc07a6ae4e15d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Skull_02.FBX using Guid(798f5dd5f7a0043459bc07a6ae4e15d7) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4222f3c7cd8f2bcffcb2d95d2d81c803') in 0.0265165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/desert_plants_normal.tga
+  artifactKey: Guid(6c6def5bb869d8c4b92a181832f675c5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/desert_plants_normal.tga using Guid(6c6def5bb869d8c4b92a181832f675c5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '43aa218032c844d6c4026e8840bb6cba') in 0.0833457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Water/Water4/Prefabs/Water4Simple.prefab
+  artifactKey: Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Water/Water4/Prefabs/Water4Simple.prefab using Guid(843740dbe549a4a6ba9556d1b80001f5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'a029ac15e3e64ff32ab029637d7384a2') in 0.0168871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/stairs_03.FBX
+  artifactKey: Guid(04162226ea0407a4d8f84c642b603476) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/stairs_03.FBX using Guid(04162226ea0407a4d8f84c642b603476) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '881bd0d3c14a0a348e792eaf59b0f15d') in 0.0269247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/rock_07.FBX
+  artifactKey: Guid(4081cc8fb89037b4985891ee35d8ebce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/rock_07.FBX using Guid(4081cc8fb89037b4985891ee35d8ebce) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9412e443ec493a9d12e504e20fef4cbd') in 0.0284308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/demo/demo2.unity
+  artifactKey: Guid(1401f1ccac94b8647a1575e83d5e9606) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/demo/demo2.unity using Guid(1401f1ccac94b8647a1575e83d5e9606) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b2f4068b4b1be3824fe6386f5de6f43b') in 0.0160051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Camp/stick_02.prefab
+  artifactKey: Guid(0d10386974f689249b30589e5c24726e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Camp/stick_02.prefab using Guid(0d10386974f689249b30589e5c24726e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'd76eae4490e5f89afda69a51c8597451') in 0.0218153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_06.tif
+  artifactKey: Guid(9878ee88b301a914281228ba6754d294) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_06.tif using Guid(9878ee88b301a914281228ba6754d294) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5f6d9c07eda59104a2a079c01a62befa') in 0.0880769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/stairs_01.prefab
+  artifactKey: Guid(f5e7585b788cb8848b6327a6dbdb2c3c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/stairs_01.prefab using Guid(f5e7585b788cb8848b6327a6dbdb2c3c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '8a3f51c6ef0d12f4a07eb08916c10185') in 0.0243304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/palm_03.prefab
+  artifactKey: Guid(6d8128692e459d442a5fec74fe5d8549) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/palm_03.prefab using Guid(6d8128692e459d442a5fec74fe5d8549) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f7e42d43f1b253a9555717e2ba67eeca') in 0.0228987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Water/Water4/Textures
+  artifactKey: Guid(3cc8ac37e0da341db819af6143a07b03) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Water/Water4/Textures using Guid(3cc8ac37e0da341db819af6143a07b03) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5dcec6326f0efd48a88939fca22b67f0') in 0.0157966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Water/Water4/Prefabs
+  artifactKey: Guid(d25c4f81e90442d4bbda4d5285669c95) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Water/Water4/Prefabs using Guid(d25c4f81e90442d4bbda4d5285669c95) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0761004590f5d3575593a6e5781f6cf2') in 0.0126675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/tent_03.FBX
+  artifactKey: Guid(040c287d12a9fce4dbe1f4ab82488317) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/tent_03.FBX using Guid(040c287d12a9fce4dbe1f4ab82488317) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '15566b0ddf818fb2dff933dc805fdcbf') in 0.0256274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/column_02.prefab
+  artifactKey: Guid(cc4e200759672914fba7a7b3ce7ad139) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/column_02.prefab using Guid(cc4e200759672914fba7a7b3ce7ad139) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b846831d64b8e6fd0c1b3885f9bcb2ee') in 0.0195627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/sword.FBX
+  artifactKey: Guid(50cd1786064c17f4e860ae3c8c927aba) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/sword.FBX using Guid(50cd1786064c17f4e860ae3c8c927aba) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '9679835e6a56bef7b3e8a12c2a615d70') in 0.0256475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/cactus_normals.tga
+  artifactKey: Guid(9fd3f474c382bf74b9f5654b90ebf5bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/cactus_normals.tga using Guid(9fd3f474c382bf74b9f5654b90ebf5bd) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '318828a6b5c1e24da026b0d8238161ce') in 0.0225302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/tree_03.prefab
+  artifactKey: Guid(2186577f94c27a04e96b5b95a6e0ece8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/tree_03.prefab using Guid(2186577f94c27a04e96b5b95a6e0ece8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '32e19b51e1d2c4f7d74188456abf41a3') in 0.0192985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/rock_half_01.FBX
+  artifactKey: Guid(3c5ff511b4f05b44cb7ec419749f1e1b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/rock_half_01.FBX using Guid(3c5ff511b4f05b44cb7ec419749f1e1b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '295de779f1b58a28ae9dd7f9d4ffcef7') in 0.0258407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/fence_02.FBX
+  artifactKey: Guid(7640f56b6392e494bb6ba9c52f458ff5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/fence_02.FBX using Guid(7640f56b6392e494bb6ba9c52f458ff5) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '15aae0951e7cbba3e3abe33c0032c2d8') in 0.0276871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Materials/dead_tree_diffuse.mat
+  artifactKey: Guid(665694a1c8332a34895bfe8499cdb1df) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Materials/dead_tree_diffuse.mat using Guid(665694a1c8332a34895bfe8499cdb1df) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0b5401ae9db1a2259cbe0942c7e0eefd') in 0.0961369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_053d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(380b0d4aad8ef714599c193f1b5eaa04) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_053d3aba195e4d26ee.terrainlayer using Guid(380b0d4aad8ef714599c193f1b5eaa04) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '4ce42f2336fe0356e980b0c4831fa4d5') in 0.0190264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/dead_tree_normals.tga
+  artifactKey: Guid(b575bd40a61499a41a2d999719d4ab3e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/dead_tree_normals.tga using Guid(b575bd40a61499a41a2d999719d4ab3e) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b82233c48b58d1a394dd8cc361d7f791') in 0.0251233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/fern_03.prefab
+  artifactKey: Guid(93d58de4ae259194692cea2589ecbb65) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/fern_03.prefab using Guid(93d58de4ae259194692cea2589ecbb65) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '84f703ca5495da1e646eba0a49072b7e') in 0.0203917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Camp/shield.prefab
+  artifactKey: Guid(fdc211e189f78734e86cb48a67d137d6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Camp/shield.prefab using Guid(fdc211e189f78734e86cb48a67d137d6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c20bc79458613b7b2318f9757c24efe0') in 0.020358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture
+  artifactKey: Guid(64c615a3c4a08f54787e4e712566ca96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture using Guid(64c615a3c4a08f54787e4e712566ca96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '94b33398f5f63be8114e6cb97b584b1a') in 0.0158086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/demo/demo2Settings.lighting
+  artifactKey: Guid(b898df337a5f19743a71f30109863670) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/demo/demo2Settings.lighting using Guid(b898df337a5f19743a71f30109863670) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: '0d7beb1f82356a6c4e7b11b4d98116e6') in 0.0306815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/bone_09.prefab
+  artifactKey: Guid(f9184f3bb794ed94fbbfac0c35d7862d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/bone_09.prefab using Guid(f9184f3bb794ed94fbbfac0c35d7862d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1078fd36bad67092865427b906ad8f71') in 0.0216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_03.tif
+  artifactKey: Guid(44089e1187ac44a4681700813acb727b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_03.tif using Guid(44089e1187ac44a4681700813acb727b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ac2160e505ba9d28cc6871b942798098') in 0.0217266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/dead_tree_diffuse.tga
+  artifactKey: Guid(d3ead86d066ec244d980b2cb312cccfa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/dead_tree_diffuse.tga using Guid(d3ead86d066ec244d980b2cb312cccfa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1c926f4f5906d887d686fa7342f31421') in 0.0247512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_02.tif
+  artifactKey: Guid(d88a6512f261005428d4beff79de5756) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Texture/Ground/Ground_02.tif using Guid(d88a6512f261005428d4beff79de5756) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '88450437c12898b201bea31ded052b19') in 0.0242938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/Materials
+  artifactKey: Guid(bb42781aac188ee4c9286927cca22d9d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/Materials using Guid(bb42781aac188ee4c9286927cca22d9d) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f36a817d45ba47ccffd1ddc505d22a29') in 0.0179934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Camp/board_02.prefab
+  artifactKey: Guid(4c7ec8988079cec488c427eb374d5ab6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Camp/board_02.prefab using Guid(4c7ec8988079cec488c427eb374d5ab6) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'ef0ecae865deccfe6c2a1cff3af481b1') in 0.022343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/rock_01.FBX
+  artifactKey: Guid(f7c808e95f8f9e140a7ef17eaaef1685) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/rock_01.FBX using Guid(f7c808e95f8f9e140a7ef17eaaef1685) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '00bbcc4a48d3cbf9b7c4af4239d353d6') in 0.0266075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/column_07.prefab
+  artifactKey: Guid(bfb2f770497e57b459e925b01daf9b68) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/column_07.prefab using Guid(bfb2f770497e57b459e925b01daf9b68) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '5cab145b2065506fe8745147e08ebb36') in 0.023087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/carpet_01.FBX
+  artifactKey: Guid(87204e7c908c1a3418d27e14fa07301b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/carpet_01.FBX using Guid(87204e7c908c1a3418d27e14fa07301b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '7d6366ba38fa0280a7cfae5fd68f444c') in 0.0228446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Camp/box.FBX
+  artifactKey: Guid(38f99752dd0d25b4e980639eb667ed96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Camp/box.FBX using Guid(38f99752dd0d25b4e980639eb667ed96) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'c7de51118ef61f055dad0c0709d2eddc') in 0.0269443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/bone_06.prefab
+  artifactKey: Guid(527e4853682f3474e80d588861f025f8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/bone_06.prefab using Guid(527e4853682f3474e80d588861f025f8) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'f0e48a9c0575f20257cd108412ba5ad9') in 0.0225809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/palms_02.prefab
+  artifactKey: Guid(514aef0078f77c445bec544827459872) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/palms_02.prefab using Guid(514aef0078f77c445bec544827459872) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1de2031e9d4e49db27e316a178510440') in 0.0229558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/rock_half_03.prefab
+  artifactKey: Guid(6356bf0017808a745bcc8eb046eb800b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/rock_half_03.prefab using Guid(6356bf0017808a745bcc8eb046eb800b) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '41cc7736721bb3745806d9b8547bcc9d') in 0.0221468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/fern_02.prefab
+  artifactKey: Guid(960dabcfaed44bf4487c30264544a127) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/fern_02.prefab using Guid(960dabcfaed44bf4487c30264544a127) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1f16bdf60238d1f4b2b8e5f9870e0a0a') in 0.023207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/arch_01.prefab
+  artifactKey: Guid(680f97dea3ecdbf45a5b755dad05fd0c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Ruins/arch_01.prefab using Guid(680f97dea3ecdbf45a5b755dad05fd0c) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'e047f2f4c1573e55011447cbaf215623') in 0.0169179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/Camp/log_2.prefab
+  artifactKey: Guid(45bce0afd7d49c34fa25ebbbddd1d214) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/Camp/log_2.prefab using Guid(45bce0afd7d49c34fa25ebbbddd1d214) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '0102389efaa4e8d965b23156c4c07ca8') in 0.0213634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_Ground_022023054508611406.terrainlayer
+  artifactKey: Guid(6fdd8004896061a42a1d47f45feb48aa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/_TerrainAutoUpgrade/layer_Ground_022023054508611406.terrainlayer using Guid(6fdd8004896061a42a1d47f45feb48aa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: 'b784a480d6ab78a09965ee5cf72d25f5') in 0.0184996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/column_07.FBX
+  artifactKey: Guid(4ad221d8b254e38488bb98c4fb72ffec) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/column_07.FBX using Guid(4ad221d8b254e38488bb98c4fb72ffec) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '1598e3a048f11fc7d6e2a0b140e6201e') in 0.0275813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/flor_stone_02.FBX
+  artifactKey: Guid(b675b31782102e149b40747b63ddc9ba) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/Ruins/flor_stone_02.FBX using Guid(b675b31782102e149b40747b63ddc9ba) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '443da9fed50a8a325341547235ece92e') in 0.0242718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/tree_03.FBX
+  artifactKey: Guid(ee6f789d81ec29a4dbf3e86f318232aa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/tree_03.FBX using Guid(ee6f789d81ec29a4dbf3e86f318232aa) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '582407295bfdc481aa8b181dd164c572') in 0.0254242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Mesh/palm_03.FBX
+  artifactKey: Guid(d88e27acf92d85345b3c7280cfa45dfc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Mesh/palm_03.FBX using Guid(d88e27acf92d85345b3c7280cfa45dfc) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '01bf03b9c8d55f472eff2215bce0dc8d') in 0.0271319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Desert/Top-Down Desert Pack/Prefab/bone_08.prefab
+  artifactKey: Guid(02411998052f0574991f63ba75aaf707) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e)
+Start importing Assets/Desert/Top-Down Desert Pack/Prefab/bone_08.prefab using Guid(02411998052f0574991f63ba75aaf707) Importer(2089858483,d624ce77472d68a35037170ec1d2d27e) (ScriptedImporter) -> (artifact id: '76d51520e7c0318be7e88ed7171488fe') in 0.0256748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

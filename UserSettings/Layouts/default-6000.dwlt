@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 127
+  controlID: 130
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 128
+  controlID: 131
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -175,8 +175,8 @@ MonoBehaviour:
     y: 0
     width: 308.80005
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 53
+  controlID: 75
   draggingID: 0
 --- !u!114 &14
 MonoBehaviour:
@@ -684,7 +684,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Recovery
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -694,22 +694,22 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Recovery
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\jayde\Documents\UnityProjects\RollerCoaster
+  m_LastProjectPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 67.600006}
     m_SelectedIDs:
-    - m_Data: 37694
+    - m_Data: 35430
     m_LastClickedID:
-      m_Data: 37694
+      m_Data: 35430
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 37646
-    - m_Data: 37648
+    - m_Data: 35430
+    - m_Data: 35432
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
@@ -744,8 +744,8 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 37646
-    - m_Data: 37648
+    - m_Data: 35430
+    - m_Data: 35432
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -773,9 +773,9 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 37760
-    m_LastClickedInstanceID: 37760
-    m_HadKeyboardFocusLastEvent: 1
+    - m_Data: 53468
+    m_LastClickedInstanceID: 53468
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -899,12 +899,11 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 37760
+      - m_Data: 53468
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 53468
       m_ExpandedIDs:
-      - m_Data: -14554
-      - m_Data: -13602
+      - m_Data: -1284
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1523,7 +1522,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 67.77457
     speed: 2
-    m_Value: 67.8509
+    m_Value: 67.77457
   m_Ortho:
     m_Target: 0
     speed: 2

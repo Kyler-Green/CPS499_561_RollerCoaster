@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "CPS499_561_RollerCoaster.slnx"
+    "dotnet.defaultSolution": "RollerCoaster.slnx"
 }

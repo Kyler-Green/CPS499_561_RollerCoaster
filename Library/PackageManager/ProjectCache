@@ -1,33 +1,38 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster/Packages/manifest.json
+    m_FilePath: D:/jared/Documents/School/Fall Classes 2026/5 Virtual Reality/Unity
+      Projects/CPS499_561_RollerCoaster/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639264600131291316
-    m_Hash: 3184701980
+      ticks: 639269040700547119
+    m_Hash: 2082157696
   m_LockFileStatus:
-    m_FilePath: C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster/Packages/packages-lock.json
+    m_FilePath: D:/jared/Documents/School/Fall Classes 2026/5 Virtual Reality/Unity
+      Projects/CPS499_561_RollerCoaster/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639264600359775857
-    m_Hash: 1617792390
+      ticks: 639269040753604398
+    m_Hash: 4060574994
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster/Packages
-m_EditorVersion: 6000.3.6f1 (bbb010bdb8a3)
+m_ProjectPath: D:/jared/Documents/School/Fall Classes 2026/5 Virtual Reality/Unity
+  Projects/CPS499_561_RollerCoaster/Packages
+m_EditorVersion: 6000.5.9f1 (b57deb96f08d)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.9
+- packageId: com.unity.ai.navigation@2.0.14
   testable: 0
   isDirectDependency: 1
-  version: 2.0.9
+  isInstalled: 1
+  version: 2.0.14
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -73,11 +78,6 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     compatible:
-    - 2.0.9
-    - 2.0.10
-    - 2.0.11
-    - 2.0.12
-    - 2.0.13
     - 2.0.14
     - 2.0.15
     recommended: 2.0.15
@@ -113,6 +113,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -122,16 +123,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638919725134710000
+  datePublishedTicks: 639196286252750000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
+    revision: 4ee1d652d94787ec330eb1706d9f63e885c9427f
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.14
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -142,18 +143,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
-    to demonstrate controlling an agent''s velocity in order to better navigate tight
-    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
-    Fixed\n* Fixed samples not correctly configuring navigation agent types when
-    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
-    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
-    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
-    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
-    A small white square was displayed in the scene on top of the gizmo icons for
-    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
-    **Navigation Updater** no longer attempts to process scenes and prefabs from
-    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
+  upmReserved: '{"changelog":"### Changed\n* The samples now use the Input System
+    package (`com.unity.inputsystem`) for player input instead of the legacy Input
+    Manager.\n\n### Fixed\n* The **AI Navigation** preferences were not searchable
+    from the Preferences window search field.\n* Errors from NavigationOverlay logged
+    to the console when the NavMeshAgent was selected at the start of playmode.\n*
+    Fixed the options in the **AI Navigation** overlay overlapping each other when
+    the overlay was squished. The options panel is now wrapped in a scroll view.
+    ([UUM-133539](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-133539))"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -167,10 +164,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
+  fingerprint: 134dd6a3b97bb75be809e267fbcd9c5071579dd2
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.9
+    minimumPackageVersion: 2.0.14
     minimumUnityVersion: 6000.0
   compliance:
     status: 0
@@ -178,12 +175,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.collab-proxy@2.11.2
+- packageId: com.unity.collab-proxy@2.13.6
   testable: 0
   isDirectDependency: 1
-  version: 2.11.2
+  isInstalled: 1
+  version: 2.13.6
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -293,15 +292,8 @@ m_ResolvedPackages:
     - 2.13.5
     - 2.13.6
     compatible:
-    - 2.11.2
-    - 2.11.3
-    - 2.11.4
-    - 2.12.4
-    - 2.13.3
-    - 2.13.4
-    - 2.13.5
     - 2.13.6
-    recommended: 2.11.4
+    recommended: 2.13.6
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -327,6 +319,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -336,16 +329,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639017585858420000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.11/manual/index.html
+  datePublishedTicks: 639216032992590000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.13/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 18be9b54f13042779a9f61840ba6435a75a27fc6
+    revision: 97d7bcda7c50ada1e2c23816e56b8c315dcd6eae
     path: 
   unityLifecycle:
-    version: 2.11.2
+    version: 2.13.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -356,23 +349,40 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added a cset by cset diff panel in the
-    branches view\n- Added specific empty states for Pending/Incoming Changes with
-    filters\n- Added empty state in the history view\n- Added branch name(s) to the
-    branch deletion dialog\n- Added a properties panel for the selected changeset/shelveset\n\n###
-    Changed\n\n- Renamed toolbar dropdown to comply with a 120px max width limit
-    in 6.5\n- Displayed progress indicator overlaying the view\n- Implemented a \"clever\"
-    truncation of paths\n- Redesigned the changesets view\n- Redesigned the branches
-    view\n- Redesigned the locks view\n- Redesigned the shelves view\n- Redesigned
-    the history view\n- Redesigned the labels view\n- Redesigned dialogs\n- Redesigned
-    the main panel to include a top breadcrumb\n- Moved incoming and shelves notifications
-    to the top bar\n- Updated deleted and moved overlay icons\n- Showed real indeterminate
-    progress bar\n\n### Fixed\n\n- Fixed Editor freezes/hangs on \"Reloading Domain\"
-    when entering Play Mode\n- Fixed Version control icon disappearing when opening
-    a scene or switching Play Mode\n- Fixed Project Settings window moving to background
-    when enabling or disabling Unity VCS in the Unity Version Control Settings\n-
-    Fixed the delete shortcut not working on macOS\n- Fixed the menu references to
-    Explorer instead of Finder when running on macOS"}'
+  upmReserved: '{"changelog":"### Added\n\n- Added a built-in diff viewer for text,
+    images, and serialized Unity assets, available from Pending Changes, History,
+    changesets, and branches.\n- Added Unity AI Assistant integration to manage version
+    control, review changes, and query repository history using natural language.\n-
+    Added support for comparing two selected revisions from the History view.\n-
+    Added a details panel showing move origins/destinations and deleted item information.\n-
+    Added a toggle in the Changesets tab to show or hide changesets from hidden branches.\n\n###
+    Changed\n\n- Raised the minimum supported Editor to Unity 6000.0 (removed support
+    for Unity 2021.3 and 2022.3).\n- Moved the settings button in the Branch Explorer
+    to the bottom of the panel.\n- Visually separate the edit and remove buttons
+    in the attribute panel to avoid unwanted clicks.\n- Improved how version control
+    operations handle unsaved scene changes while in Play Mode.\n\n### Fixed\n\n-
+    Fixed the \"Choose Repository\" dialog title capitalization. (UUM-143766)\n-
+    Fixed Create Workspace not refreshing the Unity Version Control and Branch Explorer
+    windows. (UUM-142548)\n- Fixed buttons overlapping the tab divider in the Branch
+    Explorer options when resizing tabs. (UUM-142492)\n- Fixed the blank Default
+    and Result encoding dropdowns in the Unity Version Control settings. (UUM-142544)\n-
+    Fixed settings not being applied after you change them.\n- Fixed meta files of
+    parent folders not being included in Add operations.\n- Fixed an \"item with
+    the same key has already been added\" error.\n- Fixed an inconsistent object
+    error when reloading the Settings panel.\n- Fixed the attributes panel appearing
+    for a checkout changeset.\n- Fixed branch diffs being outdated when opened from
+    the branches view.\n- Fixed an error shown when using Diff with previous revision
+    on an item that has no previous revision.\n- Fixed the Differences window staying
+    open after the plugin was paused in the settings.\n- Fixed the Branch Explorer
+    not updating the Inspector diffs when the window gains focus.\n- Fixed branch
+    diffs being recalculated and losing the current selection when refocusing or
+    resizing the Unity Version Control window.\n- Fixed the Unity Version Control
+    window not opening after reinstalling the package.\n- Fixed the sign-in windows
+    refreshing only when the mouse moved.\n- Fixed being unable to set up Unity Version
+    Control from Project Settings > Version Control.\n- Fixed checked-out files being
+    lost when exiting the Editor.\n- Fixed auto-checkout not reporting an error when
+    it failed because of a lock.\n- Fixed domain-reload exception handling on Unity
+    6000.5 and newer.\n- Fixed uncontrolled dialogs being shown during batchmode."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -386,11 +396,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1ec4e416a4af080c4db88ec03f1b37b1195b1761
+  fingerprint: 4628d2ba6ea45aaa16a8b78239d0f6f9c2176982
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.11.2
-    minimumUnityVersion: 2021.3.0f1
+    minimumPackageVersion: 2.13.6
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
@@ -400,9 +410,11 @@ m_ResolvedPackages:
 - packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.2
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.feature.development@767aadbc6eb7
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -441,9 +453,9 @@ m_ResolvedPackages:
   - name: com.unity.ide.visualstudio
     version: 2.0.26
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.ext.nunit
-    version: 2.0.5
+    version: 2.1.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -451,11 +463,11 @@ m_ResolvedPackages:
   - name: com.unity.ide.rider
     version: 3.0.38
   - name: com.unity.editorcoroutines
-    version: 1.0.1
+    version: 1.1.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.3.1
+    version: 1.4.0
   - name: com.unity.testtools.codecoverage
-    version: 1.2.7
+    version: 1.3.0
   - name: com.unity.settings-manager
     version: 2.1.1
   keywords: []
@@ -465,6 +477,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -522,9 +535,11 @@ m_ResolvedPackages:
 - packageId: com.unity.multiplayer.center@1.0.1
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.multiplayer.center@b860850997d0
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -561,6 +576,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   keywords:
   - Multiplayer
   - Netcode
@@ -572,6 +589,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -615,7 +633,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: f01f4ba8d00afa4e957bddf0fcd1612a564401ff
+  fingerprint: b860850997d026668b04ee7b71cb731ee193804c
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
@@ -626,12 +644,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.splines@2.8.2
+- packageId: com.unity.splines@2.9.0
   testable: 0
   isDirectDependency: 1
-  version: 2.8.2
+  isInstalled: 1
+  version: 2.9.0
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.splines@1cb7d86fc7ff
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.splines@e6e1d5900acc
   assetPath: Packages/com.unity.splines
   name: com.unity.splines
   displayName: Splines
@@ -675,12 +695,9 @@ m_ResolvedPackages:
     - 2.9.0
     - 2.9.1
     compatible:
-    - 2.8.2
-    - 2.8.3
-    - 2.8.4
     - 2.9.0
     - 2.9.1
-    recommended: 2.8.4
+    recommended: 2.9.1
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -691,7 +708,7 @@ m_ResolvedPackages:
     version: 1.0.3
   resolvedDependencies:
   - name: com.unity.mathematics
-    version: 1.3.3
+    version: 1.4.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.settings-manager
@@ -706,6 +723,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -715,16 +733,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638935739205640000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html
+  datePublishedTicks: 639166281918990000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.splines@2.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.splines.git
-    revision: 43fe6df748a4819ca8492b7d90662923a31d488f
+    revision: f59e7348d89b74c5ec5cdde5a338dadf0bb83e0d
     path: 
   unityLifecycle:
-    version: 2.8.2
+    version: 2.9.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -735,13 +753,13 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- [DOCATT-4646], [DOCATT-5603], [DOCATT-7045],
-    [DOCATT-5044], [DOCATT-6376], [DOCATT-6626] Clarified API documentation following
-    user feedback.\n- [SPLB-360] Fixed a bug when selecting the clear component option,
-    resulting in out of range exception\n- [SPLB-361] Fixed a bug where the spline
-    would not animate with Scene/Domain reload disabled upon entering playmode\n-
-    [SPLB-356] Fixed a bug where a null reference exception would occur after baking
-    a SplineInstantiate component and then pressing Undo."}'
+  upmReserved: '{"changelog":"### Changed\n\n- [UUM-131058] Updated Splines to support
+    Fast Enter Play Mode.\n\n### Fixed\n\n- [UUM-134040] Fixed incorrect interpolation
+    results in the different SmoothStepFloat interpolators.\n- [UUM-141436] Fixed
+    a bug where invalid values could be used in the element inspector overlay.\n-
+    [UUM-134469] Fixed a bug where the SplineData properties would overflow in the
+    Inspector.\n- [UUM-140764] Fixed a bug where Spline Extrude would not produce
+    correct mesh if its index count surpassed the maximum value of UInt16."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -755,10 +773,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 1cb7d86fc7ffee63824ca302b2b8982178eeea83
+  fingerprint: e6e1d5900acccddb7bdd2b0c7882b5d9bb14da0c
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.8.2
+    minimumPackageVersion: 2.9.0
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -766,12 +784,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.timeline@1.8.10
+- packageId: com.unity.timeline@1.8.12
   testable: 0
   isDirectDependency: 1
-  version: 1.8.10
+  isInstalled: 1
+  version: 1.8.12
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.timeline@8cd8509afae5
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -880,8 +900,6 @@ m_ResolvedPackages:
     - 1.8.12
     - 1.8.13
     compatible:
-    - 1.8.10
-    - 1.8.11
     - 1.8.12
     - 1.8.13
     recommended: 1.8.13
@@ -916,6 +934,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -925,16 +944,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639010941520280000
+  datePublishedTicks: 639096350260850000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: a83681b24217526a0f539d70ddca4abf270a5ada
+    revision: ebb3d9b85ccc1dba717b152782ebb2c5251ac79e
     path: 
   unityLifecycle:
-    version: 1.8.10
+    version: 1.8.12
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -945,10 +964,8 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- Fix compilation error for version 2023.2
-    of the editor (TB-352)\n- Fixed an issue where it was possible for 2 clips to
-    have a micro overlap that was not detected as a blend, resulting in both clips
-    playing at the same time with a weight of one. (TB-345)"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fix double clicking on TimelineAsset
+    or console log throwing an error on 6000.0 (UUM-136605)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -962,10 +979,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 7f8b2fb101b6053cc7472330401e94ff0c17b204
+  fingerprint: 8cd8509afae5d2655af4657a214db1b563c28425
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.8.10
+    minimumPackageVersion: 1.8.12
     minimumUnityVersion: 2022.3
   compliance:
     status: 0
@@ -973,12 +990,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ugui@2.0.0
+- packageId: com.unity.ugui@2.5.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  isInstalled: 1
+  version: 2.5.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ugui@b9d1dd437cb9
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ugui@1c4864518158
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -995,20 +1014,34 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.0
+    - 2.5.0
     compatible:
-    - 2.0.0
-    recommended: 2.0.0
+    - 2.5.0
+    recommended: 2.5.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   keywords:
   - UI
@@ -1026,6 +1059,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1044,7 +1078,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.5.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1069,23 +1103,25 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: b9d1dd437cb9402dbac4aa695ff758f7808c3551
+  fingerprint: 1c4864518158e22db1a992bb876b0026299b3038
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.0
-    minimumUnityVersion: 2019.2
+    minimumPackageVersion: 2.5.0
+    minimumUnityVersion: 6000.5
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.visualscripting@1.9.9
+- packageId: com.unity.visualscripting@1.9.12
   testable: 0
   isDirectDependency: 1
-  version: 1.9.9
+  isInstalled: 1
+  version: 1.9.12
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.visualscripting@191c0d7e3b69
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.visualscripting@4edfcc09512f
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1094,7 +1130,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -1140,24 +1176,29 @@ m_ResolvedPackages:
     - 1.9.11
     - 1.9.12
     compatible:
-    - 1.9.9
-    - 1.9.10
-    - 1.9.11
     - 1.9.12
     recommended: 1.9.12
     deprecated:
     - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
-    version: 2.0.0
+    version: 2.5.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.physics2d
+    version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1168,6 +1209,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1177,16 +1219,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638965671307960000
-  documentationUrl: 
+  datePublishedTicks: 639202441086160000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
+    revision: c48fbffda45c8651be75bab8fb3e25a835e12ef2
     path: 
   unityLifecycle:
-    version: 1.9.9
+    version: 1.9.12
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1197,9 +1239,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
-    API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
-    to increase accessibility for screen readers."}'
+  upmReserved: '{"changelog":"### Changed\n- Added resets for static variables via
+    `[RuntimeInitializeOnLoadMethod]` to support Fast Enter Play Mode.\n### Fixed\n-
+    Fixed a bug where changes to graph connections in Play Mode were not being listened
+    to by the graph. [UUM-130106](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-130106)\n-
+    Fixed an OverflowException thrown when regenerating nodes for methods whose `ulong`
+    parameters have default values exceeding `Int64.MaxValue`. [UUM-130107](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-130107)"}'
   signature:
     status: 1
     reason: Signature is ok
@@ -1213,11 +1258,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a
+  fingerprint: 4edfcc09512f786fe1a7f50476d320b36dab9676
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.9
-    minimumUnityVersion: 2021.3
+    minimumPackageVersion: 1.9.12
+    minimumUnityVersion: 6000.0
   compliance:
     status: 0
     violation:
@@ -1227,9 +1272,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -1258,6 +1305,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1315,9 +1363,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.adaptiveperformance@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.adaptiveperformance
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -1352,6 +1402,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1409,9 +1460,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1440,6 +1493,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1497,9 +1551,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1518,8 +1574,12 @@ m_ResolvedPackages:
     - 1.0.0
     recommended: 1.0.0
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -1527,6 +1587,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1584,9 +1645,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1615,6 +1678,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1672,9 +1736,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1703,6 +1769,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1760,9 +1827,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1791,6 +1860,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1848,9 +1918,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1883,6 +1955,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -1940,9 +2013,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.director
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1979,6 +2054,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2036,9 +2112,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2067,6 +2145,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2124,9 +2203,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2155,6 +2236,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2212,9 +2294,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2243,6 +2327,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2300,9 +2385,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2331,6 +2418,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2388,9 +2476,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2419,6 +2509,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2476,9 +2567,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2498,6 +2591,101 @@ m_ResolvedPackages:
     - 1.0.0
     recommended: 1.0.0
     deprecated: []
+  dependencies:
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    isUnityRegistry: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: 
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.unity.modules.physicscore2d@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  isInstalled: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.physicscore2d
+  assetPath: Packages/com.unity.modules.physicscore2d
+  name: com.unity.modules.physicscore2d
+  displayName: Physics Core 2D
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The PhysicsCore2D module contains all the core 2D physics features.
+    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsCore2DModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2507,6 +2695,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2564,9 +2753,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2599,6 +2790,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2656,9 +2848,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2687,6 +2881,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2744,9 +2939,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2783,6 +2980,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2840,9 +3038,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2867,6 +3067,8 @@ m_ResolvedPackages:
   resolvedDependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
+  - name: com.unity.modules.physicscore2d
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -2874,6 +3076,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -2931,9 +3134,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2962,6 +3167,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3019,9 +3225,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3052,6 +3260,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -3063,6 +3273,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -3070,6 +3282,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3127,9 +3340,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3158,6 +3373,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3215,9 +3431,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3253,6 +3471,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3310,9 +3529,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3341,6 +3562,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3398,9 +3620,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3437,6 +3661,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3494,9 +3719,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3533,6 +3760,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3590,9 +3818,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3629,6 +3859,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3686,9 +3917,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3741,6 +3974,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3798,9 +4032,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.vectorgraphics@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.vectorgraphics
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -3839,6 +4075,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
   - name: com.unity.modules.imageconversion
     version: 1.0.0
   keywords: []
@@ -3848,6 +4086,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3905,9 +4144,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3940,6 +4181,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -3997,9 +4239,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.video
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4040,109 +4284,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  signature:
-    status: 0
-    reason: 
-    attestation:
-      format: 
-      publishingChannel: 
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.0.0
-    minimumUnityVersion: 
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
-- packageId: com.unity.modules.vr@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.vr
-  assetPath: Packages/com.unity.modules.vr
-  name: com.unity.modules.vr
-  displayName: VR
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 'The VR module implements support for virtual reality devices in Unity.
-    (This module is obsolete, please use UnityEngine.XRModule instead) Scripting
-    API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4200,9 +4342,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4231,6 +4375,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4288,9 +4433,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4331,6 +4478,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4388,9 +4536,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4423,6 +4573,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4480,9 +4631,11 @@ m_ResolvedPackages:
 - packageId: com.unity.modules.hierarchycore@1.0.0
   testable: 0
   isDirectDependency: 0
+  isInstalled: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4511,6 +4664,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4529,12 +4683,12 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 
+    version: 1.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
-    isDiscoverable: 0
+    isDiscoverable: 1
   isDeprecated: 0
   deprecationMessage: 
   git:
@@ -4565,12 +4719,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.mathematics@1.3.3
+- packageId: com.unity.mathematics@1.4.0
   testable: 0
   isDirectDependency: 0
-  version: 1.3.3
-  source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.mathematics@19a9377c4ffa
+  isInstalled: 1
+  version: 1.4.0
+  source: 2
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.mathematics@981956d94fb6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4580,34 +4736,16 @@ m_ResolvedPackages:
     url: 
   category: 
   type: 
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
+  description: 'Note: The package is now empty and unnecessary, because it has been
+    moved to a module. Formerly, it contained Unity''s C# SIMD math library providing
+    vector types and math functions with a shader like syntax.'
   errors: []
   versions:
     all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
+    - 1.4.0
     compatible:
-    - 1.3.3
-    recommended: 1.3.3
+    - 1.4.0
+    recommended: 1.4.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4619,6 +4757,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4626,18 +4765,18 @@ m_ResolvedPackages:
       violations: []
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638950052122000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 1.3.3
+    version: 1.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4648,16 +4787,13 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
+  upmReserved: 
   signature:
-    status: 1
-    reason: Signature is ok
+    status: 0
+    reason: 
     attestation:
-      format: archive
-      publishingChannel: unity
+      format: 
+      publishingChannel: 
       entitlementKeys: []
       ownerOrgName: 
       ownerOrgId: 
@@ -4665,11 +4801,11 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 19a9377c4ffa59370edad3e6a34e4445529badde
+  fingerprint: 981956d94fb67524c64303c45a850c84830359e9
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.3.3
-    minimumUnityVersion: 2021.3
+    minimumPackageVersion: 1.4.0
+    minimumUnityVersion: 6000.5
   compliance:
     status: 0
     violation:
@@ -4679,9 +4815,11 @@ m_ResolvedPackages:
 - packageId: com.unity.settings-manager@2.1.1
   testable: 0
   isDirectDependency: 0
+  isInstalled: 1
   version: 2.1.1
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -4719,6 +4857,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4778,9 +4917,11 @@ m_ResolvedPackages:
 - packageId: com.unity.ide.visualstudio@2.0.26
   testable: 0
   isDirectDependency: 0
+  isInstalled: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -4836,9 +4977,9 @@ m_ResolvedPackages:
     version: 1.1.33
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.ext.nunit
-    version: 2.0.5
+    version: 2.1.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -4850,6 +4991,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -4909,9 +5051,11 @@ m_ResolvedPackages:
 - packageId: com.unity.ide.rider@3.0.38
   testable: 0
   isDirectDependency: 0
+  isInstalled: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4991,7 +5135,7 @@ m_ResolvedPackages:
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 2.0.5
+    version: 2.1.0
   keywords: []
   registry:
     id: main
@@ -4999,6 +5143,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5054,12 +5199,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.editorcoroutines@1.0.1
+- packageId: com.unity.editorcoroutines@1.1.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  isInstalled: 1
+  version: 1.1.0
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.editorcoroutines@54394ed3283c
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5070,7 +5217,7 @@ m_ResolvedPackages:
   category: 
   type: 
   description: 'The editor coroutines package allows developers to start constructs
-    similar to Unity''s monobehaviour based coroutines within the editor using abitrary
+    similar to Unity''s monobehaviour based coroutines within the editor using arbitrary
     objects. '
   errors: []
   versions:
@@ -5085,9 +5232,8 @@ m_ResolvedPackages:
     - 1.0.1
     - 1.1.0
     compatible:
-    - 1.0.1
     - 1.1.0
-    recommended: 1.0.1
+    recommended: 1.1.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5101,6 +5247,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5110,16 +5257,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638929288706330000
-  documentationUrl: 
+  datePublishedTicks: 639107374596640000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.editorcoroutines@1.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.editorcoroutines.git
-    revision: f67fc9992bbc7a553b17375de53a8b2db136528e
+    revision: fe3477fa8c73dfd5e2e03a4960fff28d1b2c7cf1
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5130,7 +5277,11 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: 
+  upmReserved: '{"changelog":"### Changed\n - Fixed an issue with nested coroutines
+    where unsubscribing from inside a coroutine could thow a NullReferenceException,
+    case [UUM-122753](https://issuetracker.unity3d.com/issues/the-coroutine-still-executes-for-one-frame-and-throws-a-nullreferenceexception-when-its-stopped-from-editorapplication-dot-update).\n
+    - Improved documentation for the EditorCoroutine class.\n - Increased the minimum
+    Unity version required to 2022LTS."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -5144,23 +5295,25 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 54394ed3283c1d492d6a80602b05b04bd0863f8b
+  fingerprint: 87a15ed012c21ed5d88f4ba868a5b1948294627b
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.0.1
-    minimumUnityVersion: 2018.1
+    minimumPackageVersion: 1.1.0
+    minimumUnityVersion: 2022.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.performance.profile-analyzer@1.3.1
+- packageId: com.unity.performance.profile-analyzer@1.4.0
   testable: 0
   isDirectDependency: 0
-  version: 1.3.1
+  isInstalled: 1
+  version: 1.4.0
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.performance.profile-analyzer@311968ce4be7
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.performance.profile-analyzer@2bb26871883c
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -5200,13 +5353,11 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.4.0
+    - 1.4.1
     compatible:
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
     - 1.4.0
-    recommended: 1.3.4
+    - 1.4.1
+    recommended: 1.4.1
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5217,6 +5368,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5226,16 +5378,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 639044511012190000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.3/manual/index.html
+  datePublishedTicks: 639162617195790000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 248e5ebe5686d9a3df7dd7cc9acbd49808730fe5
+    revision: 63d3e56aef5172cb0785708588d5224d3d589ddd
     path: 
   unityLifecycle:
-    version: 1.3.1
+    version: 1.4.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5246,7 +5398,14 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed documentation error"}'
+  upmReserved: '{"changelog":"### Added\n* Added GC allocation analysis: per-marker
+    and per-frame GC allocation byte statistics, new Frame GC Allocation Summary
+    and Marker GC Allocation Summary panels, a **GC Allocations** marker columns
+    preset, and additional CSV export columns. Bumps the .pdata file format to Version
+    9.\n\n### Changed\n* Migrated editor analytics to the `IAnalytic` API on 2023.2
+    and newer, while retaining the legacy API on earlier editors. Events and reported
+    data are unchanged.\n\n### Fixed\n* Fix for UUM-139769 - The \"Depth Slice\"
+    title is clipped to \"D...\" when the Depth Slice dropdown is opened."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -5260,10 +5419,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 311968ce4be7b8c45e37a6c865e744fb1b7a7b3e
+  fingerprint: 2bb26871883cb458a0c6e6b4ca416e96786f8836
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.3.1
+    minimumPackageVersion: 1.4.0
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -5271,12 +5430,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.test-framework@1.6.0
+- packageId: com.unity.test-framework@1.7.0
   testable: 0
   isDirectDependency: 0
-  version: 1.6.0
+  isInstalled: 1
+  version: 1.7.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.test-framework@1405238725ab
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -5290,21 +5451,21 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.6.0
+    - 1.7.0
     compatible:
-    - 1.6.0
-    recommended: 1.6.0
+    - 1.7.0
+    recommended: 1.7.0
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 2.0.3
+    version: 2.1.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 2.0.5
+    version: 2.1.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -5318,6 +5479,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5336,7 +5498,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.6.0
+    version: 1.7.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5361,10 +5523,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 0b7a23ab2e1d74441a5afdffa63f417929756957
+  fingerprint: 1405238725ab5d498428c2b01df5379ae8055acb
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.6.0
+    minimumPackageVersion: 1.7.0
     minimumUnityVersion: 6000.0.44f1
   compliance:
     status: 0
@@ -5372,12 +5534,14 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.testtools.codecoverage@1.2.7
+- packageId: com.unity.testtools.codecoverage@1.3.0
   testable: 0
   isDirectDependency: 0
-  version: 1.2.7
+  isInstalled: 1
+  version: 1.3.0
   source: 1
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.testtools.codecoverage@e4e5058206c0
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.testtools.codecoverage@19a841221620
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -5429,20 +5593,19 @@ m_ResolvedPackages:
     - 1.2.7
     - 1.3.0
     compatible:
-    - 1.2.7
     - 1.3.0
-    recommended: 1.2.7
+    recommended: 1.3.0
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
-    version: 1.0.16
+    version: 1.4.5
   - name: com.unity.settings-manager
-    version: 1.0.1
+    version: 2.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.6.0
+    version: 1.7.0
   - name: com.unity.ext.nunit
-    version: 2.0.5
+    version: 2.1.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -5460,6 +5623,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5469,16 +5633,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638932757879800000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  datePublishedTicks: 639045470066020000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: 959db8ff97eedf9b211ad5cf320b87ac01f1e90f
+    revision: f588d79b844a1f4a1cead85842bdf64782dd741a
     path: 
   unityLifecycle:
-    version: 1.2.7
+    version: 1.3.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5489,12 +5653,30 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixes\n- Documentation: Fixed formatting in [Using
-    Code Coverage in batchmode](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/CoverageBatchmode.html)
-    page (case [COV-40](https://issuetracker.unity3d.com/issues/docs-formatting-in-using-code-coverage-in-batchmode-docs-page-is-incorrect)).\n-
-    Removed the references to the deprecated FindObjectOfType method in the *Asteroids
-    sample project* (case [COV-42](https://issuetracker.unity3d.com/issues/sample-project-is-using-obsolete-findobjectoftype-method-which-causes-multiple-warnings-in-console-when-it-is-imported)).\n-
-    Added missing logs for the ReportGenerator (case [COV-46](https://issuetracker.unity3d.com/issues/code-coverage-package-does-not-report-some-of-the-internal-reportgenerator-errors))."}'
+  upmReserved: '{"changelog":"### Fixes\n\n- Fixed the filtering and reporting of
+    package''s paths that were reported relative to the current project instead of
+    absolute.\n- Fixed a NullReferenceException that could occur while computing
+    cyclomatic complexity.\n- Fixed references to the deprecated EditorAnalytics
+    methods for release streams from 6000.0 or newer (case [COV-44](https://issuetracker.unity3d.com/issues/sample-editoranalytics-warning-when-enabilg-code-coverage-in-the-sample-project))\n-
+    Fixed playmode tests failing in the _Asteroids sample project_ (case [COV-54](https://issuetracker.unity3d.com/issues/multiple-tests-are-failing-in-the-code-coverage-sample-asteroids-project))\n-
+    Fixed pink materials to be rendered for URP in _Asteroids sample project_\n-
+    Updated the Input System in _Asteroids sample project_ to use the new Input System
+    package instead of the legacy one (case [COV-52](https://issuetracker.unity3d.com/issues/asteroids-sample-project-is-not-updated-for-the-new-unity-streams))\n-
+    Fixed _assembliesInclude_/_assembliesExclude_ parsing in `filtersFromFile` when
+    running in the command line in `non-batchmode`\n\n### Changes\n\n- Raised the
+    minimum supported Unity version for the Code Coverage package to 2021.3 and updated
+    the codebase to align with this new dependency.\n- Updated dependency packages
+    versions: `com.unity.test-framework` to v1.4.5 and `com.unity.settings-manager`
+    to v2.0.0.\n- The entries in the `pathFilters` option in _-coverageOptions_ are
+    now processed in order so a subset path can be included even if the parent path
+    is excluded. Previously all exclusions were processed before any inclusions.\n-
+    Removed the `CoverageFormat` class, as there are currently no plans to support
+    any other raw coverage formats other than OpenCover.\n\n### Improvements\n\n-
+    Reduced the needed time to apply path filtering during the report generation.\n-
+    Migrated Mono APIs to CoreCLR-compatible APIs.\n- Documentation: Added a note
+    about the Input System package dependency in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page.\n- Documentation: Fixed broken links in the [Code Coverage tutorial](https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.3/manual/Quickstart.html)
+    page."}'
   signature:
     status: 1
     reason: Signature is ok
@@ -5508,23 +5690,25 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: e4e5058206c0366fe007d33a3e2ba7e3db89bc1b
+  fingerprint: 19a8412216200955baa50132d98cb9fe4770e401
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.2.7
-    minimumUnityVersion: 2019.3
+    minimumPackageVersion: 1.3.0
+    minimumUnityVersion: 2021.3
   compliance:
     status: 0
     violation:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ext.nunit@2.0.5
+- packageId: com.unity.ext.nunit@2.1.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.5
+  isInstalled: 1
+  version: 2.1.0
   source: 2
-  resolvedPath: C:\Users\jayde\Documents\UnityProjects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: D:\jared\Documents\School\Fall Classes 2026\5 Virtual Reality\Unity
+    Projects\CPS499_561_RollerCoaster\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5539,10 +5723,10 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.5
+    - 2.1.0
     compatible:
-    - 2.0.5
-    recommended: 2.0.5
+    - 2.1.0
+    recommended: 2.1.0
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -5556,6 +5740,7 @@ m_ResolvedPackages:
     url: https://packages.unity.com
     scopes: []
     isDefault: 1
+    isUnityRegistry: 1
     capabilities: 7
     configSource: 0
     compliance:
@@ -5574,7 +5759,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 2.0.5
+    version: 2.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5599,10 +5784,10 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: d8c07649098d3936da4c8ab500960c1776b44592
+  fingerprint: 44f7d31723bdd3bc52a37606118a195329e01928
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.5
+    minimumPackageVersion: 2.1.0
     minimumUnityVersion: 2019.4
   compliance:
     status: 0
@@ -5610,4 +5795,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 074fafdb01ec917b910a28dd53b145c6e6cd9e5c
+m_BuiltInPackagesHash: ed15a615c1df2833cd734c6ba3355748fefbdb5c

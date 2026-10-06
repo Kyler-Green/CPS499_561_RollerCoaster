@@ -1,38 +1,38 @@
 {
   "context": {
-    "projectPath": "C:/Users/jayde/Documents/UnityProjects/CPS499_561_RollerCoaster/Packages",
-    "unityVersion": "6000.3.6f1"
+    "projectPath": "D:/jared/Documents/School/Fall Classes 2026/5 Virtual Reality/Unity Projects/CPS499_561_RollerCoaster/Packages",
+    "unityVersion": "6000.5.9f1"
   },
   "inputs": [
-    "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Packages\\manifest.json",
-    "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Packages\\packages-lock.json",
-    "C:\\Program Files\\Unity 6000.3.6f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Packages\\manifest.json",
+    "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.9f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.ai.navigation@2.0.9": {
+    "com.unity.ai.navigation@2.0.14": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ai.navigation@5218e4bf7edc",
-      "fingerprint": "5218e4bf7edc04fcad4ed3836c1c41aef334b996",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ai.navigation@134dd6a3b97b",
+      "fingerprint": "134dd6a3b97bb75be809e267fbcd9c5071579dd2",
       "editorCompatibility": "6000.0.0a1",
-      "version": "2.0.9",
+      "version": "2.0.14",
       "source": "registry",
       "testable": false
     },
-    "com.unity.collab-proxy@2.11.2": {
+    "com.unity.collab-proxy@2.13.6": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af",
-      "fingerprint": "1ec4e416a4af080c4db88ec03f1b37b1195b1761",
-      "editorCompatibility": "2021.3.0f1",
-      "version": "2.11.2",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.collab-proxy@4628d2ba6ea4",
+      "fingerprint": "4628d2ba6ea45aaa16a8b78239d0f6f9c2176982",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.13.6",
       "source": "registry",
       "testable": false
     },
     "com.unity.feature.development@1.0.2": {
       "name": "com.unity.feature.development",
       "displayName": "Engineering",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.feature.development@767aadbc6eb7",
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
@@ -41,57 +41,57 @@
     "com.unity.multiplayer.center@1.0.1": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a",
-      "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.multiplayer.center@b860850997d0",
+      "fingerprint": "b860850997d026668b04ee7b71cb731ee193804c",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.1",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.splines@2.8.2": {
+    "com.unity.splines@2.9.0": {
       "name": "com.unity.splines",
       "displayName": "Splines",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.splines@1cb7d86fc7ff",
-      "fingerprint": "1cb7d86fc7ffee63824ca302b2b8982178eeea83",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.splines@e6e1d5900acc",
+      "fingerprint": "e6e1d5900acccddb7bdd2b0c7882b5d9bb14da0c",
       "editorCompatibility": "2022.3.0a1",
-      "version": "2.8.2",
+      "version": "2.9.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.timeline@1.8.10": {
+    "com.unity.timeline@1.8.12": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6",
-      "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.timeline@8cd8509afae5",
+      "fingerprint": "8cd8509afae5d2655af4657a214db1b563c28425",
       "editorCompatibility": "2022.3.0a1",
-      "version": "1.8.10",
+      "version": "1.8.12",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ugui@2.0.0": {
+    "com.unity.ugui@2.5.0": {
       "name": "com.unity.ugui",
       "displayName": "uGUI",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ugui@b9d1dd437cb9",
-      "fingerprint": "b9d1dd437cb9402dbac4aa695ff758f7808c3551",
-      "editorCompatibility": "2019.2.0a1",
-      "version": "2.0.0",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ugui@1c4864518158",
+      "fingerprint": "1c4864518158e22db1a992bb876b0026299b3038",
+      "editorCompatibility": "6000.5.0a1",
+      "version": "2.5.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.9": {
+    "com.unity.visualscripting@1.9.12": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.visualscripting@191c0d7e3b69",
-      "fingerprint": "191c0d7e3b69bc0df1b6fed3a997c4c3a765ef6a",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.9",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.visualscripting@4edfcc09512f",
+      "fingerprint": "4edfcc09512f786fe1a7f50476d320b36dab9676",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.9.12",
       "source": "registry",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.accessibility",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -99,7 +99,7 @@
     "com.unity.modules.adaptiveperformance@1.0.0": {
       "name": "com.unity.modules.adaptiveperformance",
       "displayName": "Adaptive Performance",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.adaptiveperformance",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -107,7 +107,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.ai",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -115,7 +115,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.androidjni",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -123,7 +123,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.animation",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -131,7 +131,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.assetbundle",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -139,7 +139,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.audio",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -147,7 +147,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.cloth",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -155,7 +155,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.director",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -163,7 +163,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.imageconversion",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -171,7 +171,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.imgui",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -179,7 +179,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.jsonserialize",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -187,7 +187,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.particlesystem",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -195,7 +195,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.physics",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -203,7 +203,15 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physicscore2d@1.0.0": {
+      "name": "com.unity.modules.physicscore2d",
+      "displayName": "Physics Core 2D",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.physicscore2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -211,7 +219,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.screencapture",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -219,7 +227,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.terrain",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -227,7 +235,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.terrainphysics",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -235,7 +243,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.tilemap",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -243,7 +251,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.ui",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -251,7 +259,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.uielements",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -259,7 +267,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.umbra",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -267,7 +275,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unityanalytics",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -275,7 +283,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -283,7 +291,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -291,7 +299,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -299,7 +307,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -307,7 +315,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -315,7 +323,7 @@
     "com.unity.modules.vectorgraphics@1.0.0": {
       "name": "com.unity.modules.vectorgraphics",
       "displayName": "Vector Graphics",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.vectorgraphics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -323,7 +331,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.vehicles",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -331,15 +339,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.video",
-      "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.modules.vr@1.0.0": {
-      "name": "com.unity.modules.vr",
-      "displayName": "VR",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.vr",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -347,7 +347,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.wind",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -355,7 +355,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.xr",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -363,7 +363,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.subsystems",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -371,25 +371,25 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.hierarchycore",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.mathematics@1.3.3": {
+    "com.unity.mathematics@1.4.0": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
-      "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.3",
-      "source": "registry",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.mathematics@981956d94fb6",
+      "fingerprint": "981956d94fb67524c64303c45a850c84830359e9",
+      "editorCompatibility": "6000.5.0a1",
+      "version": "1.4.0",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.settings-manager@2.1.1": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.settings-manager@0b8638c5ce86",
       "fingerprint": "0b8638c5ce86009d785da17b17aaf629047f64ce",
       "editorCompatibility": "2022.3.0a1",
       "version": "2.1.1",
@@ -399,7 +399,7 @@
     "com.unity.ide.visualstudio@2.0.26": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f",
       "fingerprint": "a99d56dec63ffb3a911a5a9bce9b77ba862a601c",
       "editorCompatibility": "2021.3.0a1",
       "version": "2.0.26",
@@ -409,60 +409,60 @@
     "com.unity.ide.rider@3.0.38": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684",
       "fingerprint": "1f60b3138684c97af67aa8d911b1632ba916d29d",
       "editorCompatibility": "2021.3.0a1",
       "version": "3.0.38",
       "source": "registry",
       "testable": false
     },
-    "com.unity.editorcoroutines@1.0.1": {
+    "com.unity.editorcoroutines@1.1.0": {
       "name": "com.unity.editorcoroutines",
       "displayName": "Editor Coroutines",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.editorcoroutines@54394ed3283c",
-      "fingerprint": "54394ed3283c1d492d6a80602b05b04bd0863f8b",
-      "editorCompatibility": "2018.1.0a1",
-      "version": "1.0.1",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.editorcoroutines@87a15ed012c2",
+      "fingerprint": "87a15ed012c21ed5d88f4ba868a5b1948294627b",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.1.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.performance.profile-analyzer@1.3.1": {
+    "com.unity.performance.profile-analyzer@1.4.0": {
       "name": "com.unity.performance.profile-analyzer",
       "displayName": "Profile Analyzer",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.performance.profile-analyzer@311968ce4be7",
-      "fingerprint": "311968ce4be7b8c45e37a6c865e744fb1b7a7b3e",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.performance.profile-analyzer@2bb26871883c",
+      "fingerprint": "2bb26871883cb458a0c6e6b4ca416e96786f8836",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.3.1",
+      "version": "1.4.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.test-framework@1.6.0": {
+    "com.unity.test-framework@1.7.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d",
-      "fingerprint": "0b7a23ab2e1d74441a5afdffa63f417929756957",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.test-framework@1405238725ab",
+      "fingerprint": "1405238725ab5d498428c2b01df5379ae8055acb",
       "editorCompatibility": "6000.0.44f1",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.testtools.codecoverage@1.2.7": {
+    "com.unity.testtools.codecoverage@1.3.0": {
       "name": "com.unity.testtools.codecoverage",
       "displayName": "Code Coverage",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.testtools.codecoverage@e4e5058206c0",
-      "fingerprint": "e4e5058206c0366fe007d33a3e2ba7e3db89bc1b",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.2.7",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.testtools.codecoverage@19a841221620",
+      "fingerprint": "19a8412216200955baa50132d98cb9fe4770e401",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ext.nunit@2.0.5": {
+    "com.unity.ext.nunit@2.1.0": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
-      "resolvedPath": "C:\\Users\\jayde\\Documents\\UnityProjects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d",
-      "fingerprint": "d8c07649098d3936da4c8ab500960c1776b44592",
+      "resolvedPath": "D:\\jared\\Documents\\School\\Fall Classes 2026\\5 Virtual Reality\\Unity Projects\\CPS499_561_RollerCoaster\\Library\\PackageCache\\com.unity.ext.nunit@44f7d31723bd",
+      "fingerprint": "44f7d31723bdd3bc52a37606118a195329e01928",
       "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.5",
+      "version": "2.1.0",
       "source": "builtin",
       "testable": false
     }
